@@ -1,0 +1,44 @@
+Logging to '/home/mshu/Stacks/gstacks_ref/gstacks.log'.
+Locus/sample distributions will be written to '/home/mshu/Stacks/gstacks_ref/gstacks.log.distribs'.
+
+Configuration for this run:
+  Input mode: reference-based
+  Population map: '/home/mshu/Stacks/popmap/popmap_96.txt'
+  Input files: 96, e.g. '/home/mshu/Stacks/bwa/bam_05_06_sorted/18051D11.bam'
+  Output to: '/home/mshu/Stacks/gstacks_ref/'
+  Model: marukilow (var_alpha: 0.05, gt_alpha: 0.05)
+
+Reading BAM headers...
+Processing all loci...
+1K...
+2K...
+5K...
+10K...
+20K...
+50K...
+100K...
+200K...
+500K...
+1000K...
+2000K...
+done.
+
+Read 749812026 BAM records:
+  kept 215712083 primary alignments (28.8%), of which 0 reverse reads
+  skipped 380594110 primary alignments with insufficient mapping qualities (50.8%)
+  skipped 21182248 excessively soft-clipped primary alignments (2.8%)
+  skipped 131567022 unmapped reads (17.6%)
+  skipped some suboptimal (secondary/supplementary) alignment records
+
+  Per-sample stats (details in 'gstacks.log.distribs'):
+    read 7810541.9 records/sample (4451-49880121)
+    kept 0.5%-35.9% of these
+
+Built 2519399 loci comprising 215712083 forward reads and 0 matching paired-end reads; mean insert length was 0.0 (sd: nan).
+
+Genotyped 2519399 loci:
+  effective per-sample coverage: mean=8.3x, stdev=2.0x, min=1.1x, max=15.1x
+  mean number of sites per locus: 63.8
+  a consistent phasing was found for 2838895 of out 3182218 (89.2%) diploid loci needing phasing
+
+gstacks is done.

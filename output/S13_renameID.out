@@ -1,0 +1,2 @@
+[W::vcf_parse] Contig '7' is not defined in the header. (Quick workaround: index the file with tabix.)
+Encountered error, cannot proceed. Please check the error output above.

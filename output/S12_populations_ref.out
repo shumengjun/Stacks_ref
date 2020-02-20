@@ -1,0 +1,78 @@
+Logging to '/home/mshu/Stacks/PIPO/stacks_gstacks_ref/populations.log'.
+Locus/sample distributions will be written to '/home/mshu/Stacks/PIPO/stacks_gstacks_ref/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0
+  Locus Population limit: 1
+  Log liklihood filtering: off; threshold: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: on
+  Fstats kernel smoothing: on
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 96 samples, 1 population(s), 1 group(s).
+Working on 96 samples.
+Working on 1 population(s):
+    1: 18051D11, 18207B4, 18231C2, 18814A7, 18830C6, 3006B2, 3010C9, 3015A3, 3019D7, 3020D8, 3022B4, 3027A4, 3034C11, 3037A11, 3039A4, 
+       3040A6, 3041B5, 3046A9, 3048A8, 3057A12, 3061B1, 3063B2, 3066D9, 3068C10, 3071D10, 3073B3, 3075A8, 3088B10, 3091A1, 3121B12, 
+       3129C7, 3137B1, 3138B6, 3152C11, 3156D3, 3165C12, 3166B9, 3174D6, 3178B6, 3181C7, 3185B5, 3186A6, 3187C8, 3211B7, 3216A1, 
+       3221C9, 3229C8, 3242A2, 3247C5, 3255A5, 3260D1, 3267C10, 3272A7, 3275D5, 3277B9, 3282C6, 3286D1, 3289A9, 3291A3, 3293D4, 
+       3302B11, 3303A5, 3306D2, 3310C2, 3318D5, 3325B11, 3331C1, 3335B10, 3339B8, 3352C4, 3355D3, 3356B7, 3364D2, 3365D7, 3368D6, 
+       3369C5, 3371A12, 3373B3, 3399D4, 3407A10, 3409D8, 3411D11, 3413C3, 3424D9, 3467C4, 3468C12, 3474C3, 3508C1, 3512B12, 3524A10, 
+       4203A11, 4208A2, 4224B8, 4233D10, water2D12, waterD12
+Working on 1 group(s) of populations:
+    defaultgrp: 1
+
+SNPs and calls will be written in VCF format to '/home/mshu/Stacks/PIPO/stacks_gstacks_ref/populations.snps.vcf'
+Haplotypes will be written in VCF format to '/home/mshu/Stacks/PIPO/stacks_gstacks_ref/populations.haps.vcf'
+Polymorphic sites in GenePop format will be written to '/home/mshu/Stacks/PIPO/stacks_gstacks_ref/populations.snps.genepop'
+Warning: Genepop: The order in which samples appear was modified (as the input population map is not sorted).Polymorphic loci in GenePop format will be written to '/home/mshu/Stacks/PIPO/stacks_gstacks_ref/populations.haps.genepop'
+Polymorphic sites in Structure format will be written to '/home/mshu/Stacks/PIPO/stacks_gstacks_ref/populations.structure'
+Genotyping markers will be written to '/home/mshu/Stacks/PIPO/stacks_gstacks_ref/populations.markers.tsv'
+Raw Genotypes/Haplotypes will be written to '/home/mshu/Stacks/PIPO/stacks_gstacks_ref/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/home/mshu/Stacks/PIPO/stacks_gstacks_ref/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/home/mshu/Stacks/PIPO/stacks_gstacks_ref/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * compute SNP- and haplotype-wise deviation from HWE
+  * compute F-statistics
+  * smooth per-population statistics
+  * smooth F-statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/home/mshu/Stacks/PIPO/stacks_gstacks_ref/populations.log.distribs'.
+Now processing...
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+
+Removed 0 loci that did not pass sample/population constraints from 2519399 loci.
+Kept 2519399 loci, composed of 160865844 sites; 0 of those sites were filtered, 23141103 variant sites remained.
+    6425659 genomic sites, of which 5492975 were covered by multiple loci (85.5%).
+Mean genotyped sites per locus: 63.83bp (stderr 0.00).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  1: 25.269 samples per locus; pi: 0.30882; all/variant/polymorphic sites: 160806875/23141103/23141103; private alleles: 0
+
+Number of variable sites found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  1: 11850105
+Number of loci found to be significantly out of Hardy-Weinberg equilibrium (<0.05):
+  1: 534196
+(more detail in populations.sumstats.tsv and populations.hapstats.tsv)
+
+Population pair divergence statistics (more in populations.fst_summary.tsv and populations.phistats_summary.tsv):
+
+Populations is done.
